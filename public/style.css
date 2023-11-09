@@ -1,0 +1,469 @@
+/* General */
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden !important;
+  }
+  
+  body{
+      font-family: 'DM Sans', sans-serif;
+      background:#0c0b09;;
+      color: #fff;
+      margin-top: -16px;
+      overflow-x:hidden;
+      
+  }
+
+  h1{
+    font-family: "Playfair Display", serif;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
+  a {
+      color: #cda45e;
+      text-decoration: none;
+    }
+  
+  a:hover{
+    color: white;
+  }
+ 
+
+ 
+  
+  /* navbar */
+  .logo{
+      width: 50px;
+      border-radius: 50%;
+  }
+  
+  .nav-item{
+      margin-left: auto;
+      margin-right: 20px;
+  }
+  
+  .navbar{
+    background: rgba(12, 11, 9, 0.6);
+  }
+  
+  .navbar a:current{
+    color: #cda45e;
+  }
+  
+  
+  
+  /* Home */
+  #home {
+    width: 100%;
+    height: 100vh;
+    background: url("Assets/Image/bg2.jpg") top center;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+    background-blend-mode: multiply;
+    background-color: grey;
+    padding:0;
+  }
+  
+  #home h1{
+    font-weight: bolder;
+    margin-left:0;
+    padding-left:0;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
+  #home h2{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 30px;
+    color: #cda45e;
+    margin-left: 0;
+    padding-left: 0;
+    text-shadow: 2px 2px 4px #000000;
+    
+  }
+  
+  .order-btn{
+    color: white;
+    width: 100px;
+    background-color: #cda45e;
+    border-radius: 12px;
+    padding: 8px 14px;
+    text-align: center;
+    border:none;
+    margin-top: 10px;
+    box-shadow: 1px 2px 5px #000000;   
+  }
+  
+  .order-btn:hover{
+    background-color:#a16e15;
+    transform: scale(1.1);
+  }
+  
+  
+  /* ABOUT */
+  #about{
+    width: 100%;
+    height: 100vh;
+    background: url("Assets/Image/bg-about.jpg") top center ;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+    background-blend-mode: multiply;
+    background-color:rgba(0, 0, 0, 0.867);
+    padding:0;
+    
+  
+  }
+
+  #about h1{
+    font-family: "Playfair Display", serif;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  #about p{
+    text-shadow: #000000;
+  }
+  
+  
+  #about .row{
+   margin-top: 50px;
+    
+  }
+  
+  #about .about-text{
+    text-align: justify;
+    
+  }
+
+ .embed-responsive-item{
+    border-radius: 20px;
+  }
+  
+  
+  
+  
+  /* MENU */
+  #menu{
+    width: 100%;
+    background-color: rgb(40, 37, 30);
+    background-size: cover;
+    position: relative;
+    padding-bottom: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .menu-title{
+    margin-top: 100px;
+    margin-bottom: 30px;
+  }
+  
+  /* flipcard */
+  .flip-card {
+      background-color: transparent;
+      width: 300px;
+      height: 200px;
+      perspective: 1000px; 
+      display: block;
+      margin: auto;
+      margin-top: 40px;
+    }
+    
+    /* This container is needed to position the front and back side */
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.8s;
+      transform-style: preserve-3d;
+    }
+    
+    /* Do an horizontal flip when you move the mouse over the flip box container */
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+    
+    /* Position the front and back side */
+    .flip-card-front, .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden; /* Safari */
+      backface-visibility: hidden;
+    }
+    
+    /* Style the front side (fallback if image is missing) */
+    .flip-card-front {
+      background-color: #bbb;
+      color: black;
+      border-radius: 20px;
+    }
+
+    .flip-card-front img{
+      border-radius: 20px;
+    }
+    
+    /* Style the back side */
+    .flip-card-back {
+      background-color:#cda45e;
+      color: white;
+      transform: rotateY(180deg);
+      padding: 10px;
+      padding-top: 20px;
+    }
+  
+    .flip-card-back{
+      border-radius: 20px;
+    }
+  
+    /* EVENT */
+    #event{
+      background: url(Assets/Image/bg-event.jpg);
+      width: 100%;
+      background-size: cover;
+      position: relative;
+      padding: 0;
+      background-blend-mode: multiply;
+      background-color: rgb(42, 41, 41);
+      padding:0;
+    }
+  
+  
+    .event-title{
+      text-align: center;
+      padding-top: 100px;
+      margin-bottom: 80px;
+      
+    }
+  
+    .carousel{
+      width: 400px;
+      display: block;
+      margin: auto;
+      margin-bottom: 50px;
+     
+    }
+  
+    .carousel .carousel-item {
+      width: 400px;
+      height: 300px;
+    }
+    
+  
+    .carousel-item video{
+      width: 100%;
+      height: 100%;
+    }
+  
+    .cooking-text{
+      margin-left: 100px;
+      margin-right: 100px;
+      margin-bottom: 50px;
+      text-align:  justify;
+      background-color: #7c633a;
+      border-radius: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding: 20px;
+      
+      
+      
+    }
+
+    .event-btn{
+      background-color: #cda45e;
+      border: none;
+      border-radius: 10px;
+      padding: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+      color: white;
+    }
+
+    .event-btn:hover{
+      background-color:#a16e15;
+      transform: scale(1.1);
+    }
+  
+    .meeting-text{
+      margin-left: 100px;
+      margin-right: 100px;
+      margin-bottom: 50px;
+      text-align:  justify;
+      background-color: #7c633a;
+      border-radius: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding:20px;
+      
+      
+    }
+  
+    .cooking-carousel{
+     margin-left: auto;
+     
+    }
+  
+/* RESERVATION */
+    #booking{
+      text-align: center;
+      align-items: center;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      
+      
+    }
+
+    #booking h2{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    #booking form{
+        width:50%;
+        margin:auto;
+    }
+
+    #booking button{
+        border-radius: 10px;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color:  #cda45e;
+        color: white;
+    }
+   
+    #booking button:hover{
+      background-color:#a16e15;
+      transform: scale(1.1);
+    }
+
+    .form-input{
+      margin-top: 15px;
+    }
+
+    .form-input .btn{
+      background-color: #cda45e;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      padding: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+      display: block;
+      margin: auto;
+    }
+
+    .form-input btn:hover{
+      background-color:#a16e15;
+      transform: scale(1.1);
+    }
+/* FOOTER */
+
+#footer{
+    background-image: url(Assets/Image/bg-footer.jpg) ;
+    background-color: rgb(43, 38, 38);
+    background-blend-mode: multiply;
+    width: 100%;
+    background-size: cover;
+}
+
+
+.map {
+    position: relative;
+    padding-bottom: 20%; 
+    height: 0;
+    overflow: hidden;
+}
+
+.map iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100% !important;
+height: 250px;
+}
+
+
+.footer-logo{
+    width:100px;
+    height: 100px;
+    border-radius:50%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+   
+}
+
+
+.logo-text{
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.logo-text p{
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+.contact-us{
+    margin-left: 30px;
+    align-items: center;
+}
+
+ 
+#footer .socmed a{
+  font-size: 18px;
+  display: inline-block;
+  background: #28251f;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .socmed a:hover{
+  background: #cda45e;
+  color: #fff;
+  text-decoration: none;
+}
+
+.hours{
+  margin-top: 20px;
+}
+
+.message{
+ padding-right: 50px;
+ margin-right: auto;
+  position: relative;
+}
+
+.btn-message{
+  margin-top: 20px;
+  background-color: #cda45e;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.btn-message:hover{
+  background-color:#a16e15;
+  transform: scale(1.1);
+}
+
+
+
+   

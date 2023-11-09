@@ -1,0 +1,108 @@
+.tasha_header{
+    margin-bottom: 40px;
+    
+}
+
+.tasha_logo{
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+
+body{
+    background-color: #fefdee;
+    text-align: center;
+    font-family: 'Capriola', sans-serif;
+    margin-bottom: 100px;
+}
+
+
+
+.tasha_title{
+    font-size: 20px;
+    font-family: capriola, sans-serif;
+    color: black;
+
+    
+}
+
+.tasha_subtitle{
+    font-size: 14px;
+    font-family: capriola, sans-serif;
+    color: black;
+    font-weight: 500;
+}
+
+
+.tasha_links a{
+    text-decoration: none;
+    color: black;
+    margin-top: 18px;
+    max-width: 590px;
+    display: block;
+    background-color: #ffd20a;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10PX;
+    padding-left: 44px;
+    padding-right: 44px;
+    padding-top: 22px;
+    padding-bottom:22px;
+    border: 2px solid;
+    border-color: #ffd20a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+
+
+    
+}
+
+
+.tasha_links_item a:hover{
+    border: 2px solid;
+    border-color:#ffd20a;
+    background-color:#fefdee;
+    color: #ffd20a;
+    
+}
+
+.navbar{
+    margin-left: auto;
+    margin-right:auto;
+    width: 730px;
+    margin-top: 25px;
+}
+
+.tasha_navbar_dots{
+    border: 1px solid #F0F0F0;
+    background-color: #F0F0F0;
+    border-radius: 50%;
+    width: 40px;
+    padding-top: 5px;
+    height: 35px;
+    text-align: center;
+    margin-left: auto;
+    transition: .2s;
+    text-decoration: none;
+    display: block;
+}
+
+.tasha_navbar_dots:hover{
+    transform: scale(1.1);
+}
+
+.tasha_linktree img{
+    width: 90px;
+    height: 50px;
+    margin-top: 35px;
+  
+}
+
+
+
+
