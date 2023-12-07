@@ -10,9 +10,8 @@
 	<br/>
 	<br/>
 
+
 <div class="row">
-
-
 <div class="col-8">
 	<form action="/pegawai/store" method="post" class="form-horizontal">
 		{{ csrf_field() }}
