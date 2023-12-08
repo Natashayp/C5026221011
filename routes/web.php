@@ -106,3 +106,8 @@ Route::get('/keranjangbelanja','App\Http\Controllers\KeranjangController@index2'
 Route::get('/keranjangbelanja/beli','App\Http\Controllers\KeranjangController@beli');
 Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangController@store');
 Route::get('/keranjangbelanja/hapus/{id}','App\Http\Controllers\KeranjangController@hapus');
+
+Route::get('/nilaikuliah','App\Http\Controllers\NilaiController@indexNilai');
+Route::get('/nilaikuliah/tambahNilai','App\Http\Controllers\NilaiController@tambahNilai');
+Route::post('/nilaikuliah/store','App\Http\Controllers\NilaiController@store');
+

@@ -24,14 +24,14 @@ class KeranjangController extends Controller
 
     public function store(Request $request)
 	{
-		// insert data ke table pegawai
+
 		DB::table('keranjangbelanja')->insert([
 			'ID' => $request->ID,
 			'KodeBarang' => $request->Kode,
 			'Jumlah' => $request->Jumlah,
 			'Harga' => $request->Harga
 		]);
-		// alihkan halaman ke halaman pegawai
+
 		return redirect('/keranjangbelanja');
 
 	}
