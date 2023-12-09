@@ -111,3 +111,13 @@ Route::get('/nilaikuliah','App\Http\Controllers\NilaiController@indexNilai');
 Route::get('/nilaikuliah/tambahNilai','App\Http\Controllers\NilaiController@tambahNilai');
 Route::post('/nilaikuliah/store','App\Http\Controllers\NilaiController@store');
 
+Route::get('/sepedamotor','App\Http\Controllers\sepedamotorController@indexsepedamotor');
+Route::get('/sepedamotor/tambahsepedamotor','App\Http\Controllers\sepedamotorController@tambahsepedamotor');
+Route::post('/sepedamotor/store','App\Http\Controllers\sepedamotorController@store');
+Route::get('/sepedamotor/editsepedamotor/{kodesepedamotor}','App\Http\Controllers\sepedamotorController@editsepedamotor');
+Route::post('/sepedamotor/update','App\Http\Controllers\sepedamotorController@update');
+Route::get('/sepedamotor/hapus/{kodesepedamotor}','App\Http\Controllers\sepedamotorController@hapus');
+Route::get('/sepedamotor/viewsepedamotor/{kodesepedamotor}','App\Http\Controllers\sepedamotorController@viewsepedamotor');
+Route::get('/sepedamotor/cari','App\Http\Controllers\sepedamotorController@cari');
+
+
