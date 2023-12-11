@@ -32,7 +32,7 @@
             <div class="dropdown-menu">
               <a class="dropdown-item" href="/pegawai">Pegawai</a>
               <a class="dropdown-item" href="/sepedamotor">Sepeda Motor</a>
-              <a class="dropdown-item" href="#">Link 3</a>
+              <a class="dropdown-item" href="/chat">CHAT</a>
             </div>
           </li>
         </ul>

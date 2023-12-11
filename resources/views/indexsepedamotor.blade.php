@@ -34,6 +34,9 @@
 			<td>{{ $sm->kodesepedamotor }}</td>
 			<td>{{ $sm->merksepedamotor }}</td>
 			<td>{{ $sm->stocksepedamotor }}</td>
+            <td>
+                 
+            </td>
 			<td style="text-align: center">
                 @if($sm->tersedia == 'Y')
                 <input type="checkbox" checked disabled>

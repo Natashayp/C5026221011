@@ -120,4 +120,15 @@ Route::get('/sepedamotor/hapus/{kodesepedamotor}','App\Http\Controllers\sepedamo
 Route::get('/sepedamotor/viewsepedamotor/{kodesepedamotor}','App\Http\Controllers\sepedamotorController@viewsepedamotor');
 Route::get('/sepedamotor/cari','App\Http\Controllers\sepedamotorController@cari');
 
+//MOBIL
+Route::get('/mobil','App\Http\Controllers\MobilController@index');
+Route::get('/mobil/tambah','App\Http\Controllers\MobilController@tambah');
+Route::post('/mobil/store','App\Http\Controllers\MobilController@store');
+Route::get('/mobil/edit/{kodemobil}','App\Http\Controllers\MobilController@edit');
+Route::post('/mobil/update','App\Http\Controllers\MobilController@update');
+Route::get('/mobil/hapus/{kodemobil}','App\Http\Controllers\MobilController@hapus');
+Route::get('/mobil/view/{kodemobil}','App\Http\Controllers\MobilController@view');
+Route::get('/mobil/cari','App\Http\Controllers\MobilController@cari');
 
+//EAS
+Route::get('/chat','App\Http\Controllers\ChatController@index');
