@@ -26,7 +26,7 @@ class ChatController extends Controller
 
         foreach ($wordArray as &$word) {
             if (array_key_exists($word, $emoji)) {
-                $word = '<img src="' . asset('Assets/Pictures/]' . $emoji[$word]) . '" alt="' . $word . '" style="width:24px; height:24px;" />';
+                $word = '<img src="' .asset('' . $emoji[$word]) . '" alt="' . $word . '" style="width:24px; height:24px;" />';
             }
         }
 
